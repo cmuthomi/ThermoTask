@@ -12,7 +12,7 @@
       <img src="https://img.shields.io/badge/language-Swift-F05138?logo=swift" alt="Language">
     </a>
     <a href="https://github.com/alefaraci/ThermoTask/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/alefaraci/ThermoTask?color=brightgreen" alt="License">
+      <img src="https://img.shields.io/github/license/alefaraci/ThermoTask?color=brightgreen&_nocache=1" alt="License">
     </a>
     <br />
     <a href="#about">About</a>
