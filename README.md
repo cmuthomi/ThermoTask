@@ -21,6 +21,8 @@
     ·
     <a href="#features">Features</a>
     ·
+    <a href="#installation">Installation</a>
+    ·
     <a href="#getting-started">Getting Started</a>
     <br />
     [ <a href="https://github.com/alefaraci/ThermoTask/releases/tag/v1.0.0">Download</a> ]
@@ -62,7 +64,7 @@ The app includes a built-in Swift implementation of the Niimbot BLE protocol (po
 > 4. Click on the `ThermoTask` icon again in Finder;
 > 5. A confirmation dialog will appear — click `Open` to confirm.
 
-## Requirements
+### Requirements
 
 - macOS 26.2+ (Tahoe)
 - Xcode 26.2+
@@ -75,7 +77,7 @@ The app includes a built-in Swift implementation of the Niimbot BLE protocol (po
 3. Build and run (Cmd+R).
 4. Grant Calendar, Reminders, and Bluetooth permissions when prompted.
 
-## Printing
+### Printing
 
 The app communicates directly with Niimbot printers over Bluetooth Low Energy using a built-in Swift library (niimblue-swift).
 
