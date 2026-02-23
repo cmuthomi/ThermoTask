@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>This app needs access to your reminders to display and manage them.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app needs Bluetooth access to communicate with the thermal printer.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs access to your calendar to schedule and manage events.</string>
+</dict>
+</plist>

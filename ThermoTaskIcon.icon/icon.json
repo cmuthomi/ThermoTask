@@ -1,0 +1,38 @@
+{
+  "fill" : "system-dark",
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "plus-darker",
+          "fill" : "none",
+          "hidden" : false,
+          "image-name" : "Image.png",
+          "name" : "Image",
+          "opacity" : 0.93,
+          "position" : {
+            "scale" : 1.35,
+            "translation-in-points" : [
+              0,
+              32.2640625
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
